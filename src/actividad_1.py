@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from src.utils.grapher import continuous_plotter, discrete_plotter
 
-
 def continuous_sine():
     frequency = 1
     amplitude = 1
@@ -16,7 +15,6 @@ def continuous_sine():
         time, x_t,
         'Continuous Sine wave Signal', 'Sin wave Signal',
         'Time [s]',  'Amplitude')
-
 
 def discrete_sine():
     frequency = 1
